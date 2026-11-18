@@ -1,0 +1,67 @@
+PHASE GENERATORS: exact identities and ranks
+  G = (2,) : rank = 1 ; identities passed
+  G = (3,) : rank = 2 ; identities passed
+  G = (4,) : rank = 3 ; identities passed
+  G = (2, 2) : rank = 3 ; identities passed
+  G = (5,) : rank = 4 ; identities passed
+  G = (6,) : rank = 5 ; identities passed
+  G = (7,) : rank = 6 ; identities passed
+  G = (8,) : rank = 7 ; identities passed
+  G = (4, 2) : rank = 7 ; identities passed
+  G = (2, 2, 2) : rank = 7 ; identities passed
+  G = (3, 3) : rank = 8 ; identities passed
+
+INDEPENDENT RETURN-WORD CHECKS
+  G = (2,) : c_0,...,c_6 = [1, 1, 3, 10, 35, 126, 462]
+  G = (3,) : c_0,...,c_6 = [1, 1, 5, 31, 213, 1551, 11723]
+  G = (4,) : c_0,...,c_5 = [1, 1, 7, 64, 679, 7876]
+  G = (2, 2) : c_0,...,c_5 = [1, 1, 7, 64, 679, 7876]
+  G = (5,) : c_0,...,c_3 = [1, 1, 9, 109]
+
+GENERIC MOMENTS AND THE ODD JACOBI DEFECT
+  N = 2 : generic [1, 3, 10] ; circulant [1, 3, 10] ; beta_1 jump = 0
+  N = 3 : generic [1, 5, 29] ; circulant [1, 5, 31] ; beta_1 jump = 1/2
+  N = 4 : generic [1, 7, 58] ; circulant [1, 7, 64] ; beta_1 jump = 1
+  N = 5 : generic [1, 9, 97] ; circulant [1, 9, 109] ; beta_1 jump = 3/2
+
+DELAYED HANKEL AND EVEN JACOBI DEFECTS
+  m = 1 : first Hankel size 3 ; defect/cofactor = 2 ; lambda_2 jump = 1/2
+    D_3: 39 -> 47; lambda_2: 39/16 -> 47/16
+  m = 2 : first Hankel size 5 ; defect/cofactor = 18 ; lambda_4 jump = 39/73
+  m = 3 : first Hankel size 7 ; defect/cofactor = 200 ; lambda_6 jump = 468700/885237
+  m = 4 : first Hankel size 9 ; defect/cofactor = 2450 ; lambda_8 jump = 315904868125/679351438323
+  m = 5 : first Hankel size 11 ; defect/cofactor = 31752 ; lambda_10 jump = 14837036654447746452/36361035628385546425
+
+LAPLACE QUADRATIC FORM
+  det(N I_(N-1) - J_(N-1)) = N^(N-2), N=2,...,10
+
+FINITE GRIDS: GENERATOR DETERMINANTS
+  X = (2,) Y = (3,) : absolute determinant = 12
+  X = (2,) Y = (4,) : absolute determinant = 32
+  X = (3,) Y = (3,) : absolute determinant = 81
+  X = (2, 2) Y = (3,) : absolute determinant = 432
+  X = (3,) Y = (2, 2) : absolute determinant = 432
+  X = (2, 2) Y = (2, 2) : absolute determinant = 4096
+
+FINITE GRIDS: FIRST MOMENT, HANKEL AND JACOBI DEFECTS
+  M=2 N=2 l=3: first degree 6; defect 1; Jacobi check passed
+  M=2 N=2 l=5: first degree 10; defect 1; Jacobi check passed
+  M=2 N=2 l=7: first degree 14; defect 1; Jacobi check passed
+  M=2 N=3 l=5: first degree 10; defect 2; Jacobi check passed
+  M=2 N=3 l=7: first degree 14; defect 2; Jacobi check passed
+  M=2 N=4 l=3: first degree 6; defect 3; Jacobi check passed
+  M=2 N=4 l=5: first degree 10; defect 3; Jacobi check passed
+  M=2 N=4 l=7: first degree 14; defect 3; Jacobi check passed
+  M=2 N=5 l=3: first degree 6; defect 4; Jacobi check passed
+  M=2 N=5 l=7: first degree 14; defect 4; Jacobi check passed
+  Direct Gram count M=3 N=3 l=2: [1, 1, 5, 29, 185]
+  Direct Gram count M=3 N=5 l=2: [1, 1, 7, 57, 511]
+
+FINITE GRIDS: INDEPENDENT BLOCK-ACTION COUNTS
+  X = (2,) Y = (3,) l = 5 : [1, 1, 4, 18, 86, 426, 2164, 11208, 58974, 314442, 1695506]
+  X = (2,) Y = (4,) l = 3 : [1, 1, 5, 28, 167, 1036, 6611]
+  X = (3,) Y = (3,) l = 2 : [1, 1, 5, 29, 185]
+  X = (3,) Y = (5,) l = 2 : [1, 1, 7, 57, 511]
+  X = (2, 2) Y = (3,) l = 5 : [1, 1, 6, 42]
+
+ALL CHECKS PASSED

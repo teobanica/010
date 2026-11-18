@@ -1,0 +1,45 @@
+index 6, generic: c_1..c_9 = [1, 4, 18, 86, 426, 2164, 11208, 58974, 314442]
+   words in Gamma = kagome walks = honeycomb/W_3 formula: True
+   honeycomb returns W_3(2j), j = 0..8: [1, 3, 15, 93, 639, 4653, 35169, 272835, 2157759]
+index 8, generic: c_1..c_7 = [1, 5, 28, 167, 1036, 6608, 43072]
+   words in Gamma = diamond lattice/Domb formula: True
+   diamond returns W_4(2j), j = 0..7: [1, 4, 28, 256, 2716, 31504, 387136, 4951552]
+------------------------------------------------------------------------------------------
+Theorem 5.10, recipe: 210 elements k + h*zeta of norm <= 60 tested: True
+all rows (1, p, q) with p, q roots of unity of order <= 36 give ideals: True
+   orders of K_Q found, up to 40: [1, 3, 4, 7, 9, 12, 13, 16, 19, 21, 25, 27, 28, 31, 36]
+   norms of Eisenstein integers, up to 40: [1, 3, 4, 7, 9, 12, 13, 16, 19, 21, 25, 27, 28, 31, 36, 37, 39]
+243 ideals of norm <= 400, 137 different laws, coincidences other than conjugation: 0
+   K_33   p=1, q=e(1/3)         |K_Q| =  3, annihilator lattice (1,1),(0,3)
+   cube   p=1, q=i              |K_Q| =  4, annihilator lattice (2,0),(0,2)
+   Fano   p=e(1/7), q=e(3/7)    |K_Q| =  7, annihilator lattice (1,4),(0,7)
+   Nauru  p=1, q=e(1/12)        |K_Q| = 12, annihilator lattice (2,2),(0,6)
+------------------------------------------------------------------------------------------
+   {6,3}_(1,1):  6 vertices, girth 4, isomorphic to K_33: True
+   {6,3}_(2,0):  8 vertices, girth 4, isomorphic to cube: True
+   {6,3}_(2,1): 14 vertices, girth 6, isomorphic to Heawood: True
+   {6,3}_(3,0): 18 vertices, girth 6, isomorphic to Pappus: True
+   {6,3}_(2,2): 24 vertices, girth 6, isomorphic to Nauru = GP(12,5): True
+   {6,3}_(3,1): 26 vertices, girth 6, cubic: True
+   {6,3}_(4,0): 32 vertices, girth 6, cubic: True
+   {6,3}_(3,2): 38 vertices, girth 6, cubic: True
+   {6,3}_(4,1): 42 vertices, girth 6, cubic: True
+------------------------------------------------------------------------------------------
+density p_3, hypergeometric form: moments of order 0, 2, .., 10 = [1.0, 3.0, 15.0, 93.0, 639.0, 4653.0]  match W_3: True
+density p_3, elliptic       form: moments of order 0, 2, .., 10 = [1.0, 3.0, 15.0, 93.0, 639.0, 4653.0]  match W_3: True
+   the 2 forms agree at r = [0.3, 0.9, 1.1, 2.0, 2.9]: True;  p_3(3) = 0.27566445, sqrt(3)/(2 pi) = 0.27566445
+   moments of (2/3) delta_0 + (1/6) p_3(|x-3|) dx: [1.0, 4.0, 18.0, 86.0, 426.0, 2164.0] match c_n: True
+------------------------------------------------------------------------------------------
+5. The group p3 and the finite limits of the Karlsson matrices
+   a^3 = b^3 = (ab)^3 = 1: True   ab != ba, and a b^-1 has infinite order (a translation): True
+   order 24, cube   alpha = e(2/12), beta = e(4/12): |K_Q| =  4, |G_H| = 24
+      c_n = [1, 4, 18, 88, 456, 2464, 13728, 78208]
+      a_k = [0, 2, 1, 10, 29, 114, 419, 1570]  as expected: True
+   c_4 = 90, K_33   alpha = e(0/12), beta = e(8/12): |K_Q| =  3, |G_H| = 18
+      c_n = [1, 4, 18, 90, 486, 2754, 16038, 94770]
+      a_k = [0, 2, 1, 12, 39, 152, 559, 2092]  as expected: True
+   order 72, Nauru  alpha = e(2/12), beta = e(8/12): |K_Q| = 12, |G_H| = 72
+      c_n = [1, 4, 18, 86, 426, 2164, 11208, 58986]
+      a_k = [0, 2, 1, 8, 19, 66, 209, 708]  as expected: True
+   the limit of order 72 has the ideal (2 + 2 zeta) of Example 5.14: True   generic moments up to n = 7, then c_8 = 58986 against 58974: True
+ALL CHECKS PASSED

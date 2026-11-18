@@ -1,0 +1,63 @@
+======================================================================
+Haagerup
+  principal vertices 10, vertices by depth [1, 1, 1, 1, 2, 2, 2]
+  dual      vertices  8, vertices by depth [1, 1, 1, 1, 2, 2]
+  walk counts agree on the 2 graphs: True
+  c_1..c_12 = [1, 2, 5, 15, 52, 199, 807, 3374, 14321, 61227, 262660, 1128595]
+  a_1..a_12 = [0, 0, 0, 1, 0, 1, 0, 4, 3, 6, 11, 20]
+  first depth with several vertices: n = 4, with m = 2 vertices; a_n = 1
+  law of Theorem 1.8 has moments c_0..c_12: True
+     atom 0.000000  mass 0.333333
+     atom 2.000000  mass 0.333333
+     atom 4.302776  mass 0.027992
+     atom 0.697224  mass 0.305342
+  index 4.302776; atoms of the lift on the half-line: z = 1.722084 and 1/z = 0.580692
+======================================================================
+Asaeda-Haagerup
+  principal vertices 15, vertices by depth [1, 1, 1, 1, 1, 1, 2, 2, 3, 1, 1]
+  dual      vertices 12, vertices by depth [1, 1, 1, 1, 1, 1, 2, 2, 1, 1]
+  walk counts agree on the 2 graphs: True
+  c_1..c_12 = [1, 2, 5, 14, 42, 133, 443, 1552, 5716, 22067, 88805, 369854]
+  a_1..a_12 = [0, 0, 0, 0, 0, 1, 0, 2, 2, 6, 11, 26]
+  first depth with several vertices: n = 6, with m = 2 vertices; a_n = 1
+  law of Theorem 1.8 has moments c_0..c_12: True
+     atom 0.000000  mass 0.250000
+     atom 1.000000  mass 0.250000
+     atom 2.000000  mass 0.125000
+     atom 3.000000  mass 0.125000
+     atom 4.561553  mass 0.003732
+     atom 0.438447  mass 0.246268
+  index 4.561553; atoms of the lift on the half-line: z = 2.081019 and 1/z = 0.480534
+======================================================================
+3311
+  principal vertices  9, vertices by depth [1, 1, 1, 1, 3, 1, 1]
+  dual      vertices  9, vertices by depth [1, 1, 1, 1, 3, 1, 1]
+  walk counts agree on the 2 graphs: True
+  c_1..c_12 = [1, 2, 5, 16, 62, 268, 1220, 5680, 26696, 125968, 595376, 2815936]
+  a_1..a_12 = [0, 0, 0, 2, 0, 4, 7, 18, 39, 92, 208, 482]
+  first depth with several vertices: n = 4, with m = 3 vertices; a_n = 2
+  law of Theorem 1.8 has moments c_0..c_12: True
+     atom 0.000000  mass 0.416667
+     atom 2.000000  mass 0.250000
+     atom 4.732051  mass 0.022329
+     atom 1.267949  mass 0.311004
+  index 4.732051; atoms of the lift on the half-line: z = 2.296630 and 1/z = 0.435421
+======================================================================
+2221
+  principal vertices  8, vertices by depth [1, 1, 1, 3, 2]
+  dual      vertices  8, vertices by depth [1, 1, 1, 3, 2]
+  walk counts agree on the 2 graphs: True
+  c_1..c_12 = [1, 2, 7, 31, 146, 697, 3337, 15986, 76591, 366967, 1758242, 8424241]
+  a_1..a_12 = [0, 0, 2, 1, 4, 11, 24, 56, 137, 320, 759, 1802]
+  first depth with several vertices: n = 3, with m = 3 vertices; a_n = 2
+  law of Theorem 1.8 has moments c_0..c_12: True
+     atom 1.000000  mass 0.666667
+     atom 4.791288  mass 0.057558
+     atom 0.208712  mass 0.275776
+  index 4.791288; atoms of the lift on the half-line: z = 2.369205 and 1/z = 0.422082
+======================================================================
+Haagerup         closed formula for c_n, n <= 40: True
+Asaeda-Haagerup  closed formula for c_n, n <= 40: True
+3311             closed formula for c_n, n <= 40: True
+2221             closed formula for c_n, n <= 40: True
+ALL CHECKS PASSED
