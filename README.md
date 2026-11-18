@@ -4,8 +4,6 @@
 
 **Banica, Codex and Fable** (November 2026)
 
-Hexagon 2611.00616
-
 This repository contains the paper (`010.pdf`, `010.tex`) and the programs which check its computations (`code010`).
 
 ## Summary
